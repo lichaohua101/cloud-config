@@ -8,6 +8,9 @@ eureka:
   instance:
     prefer-ip-address: true #采用IP注册
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+ 
+test:
+  name: lisi
     
 
   
